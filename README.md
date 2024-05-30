@@ -45,5 +45,7 @@ mi-portafolio-frontend/
    ```bash
    git clone https://github.com/diegoabeltran16/mi-portafolio-frontend.git
 
+####
+Link de acceso en la web: https://diegoabeltran16.github.io/mi-portafolio-frontend/
 
 Este `README.md` proporciona una guía clara y completa sobre cómo configurar, ejecutar y entender el proyecto. Además, incluye el enlace directo a tu página web hospedada en GitHub Pages.
