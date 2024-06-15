@@ -1,5 +1,4 @@
-# mi-portafolio-frontend
-# Mi Portafolio
+# my web page
 
 Este es mi portafolio personal donde muestro mi experiencia laboral, académica y personal. La página web está diseñada para ser atractiva y fácil de navegar, con secciones dedicadas a diferentes aspectos de mi perfil profesional.
 
