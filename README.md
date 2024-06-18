@@ -49,3 +49,8 @@ Link de acceso en la web: https://diegoabeltran16.github.io/My-Web-Page/
 
 
 Este `README.md` proporciona una guía clara y completa sobre cómo configurar, ejecutar y entender el proyecto. Además, incluye el enlace directo a tu página web hospedada en GitHub Pages.
+
+
+# git commit
+./git_commit_push.sh "Your commit message"
+./git_commit_push.sh "Initial commit with automation script"
