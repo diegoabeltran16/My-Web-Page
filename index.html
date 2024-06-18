@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Encabezado del sitio -->
-    <header>
-        <h1>Bienvenido a Mi Portafolio</h1>
-    </header>
-    <main>
-        <!-- Sección de información personal -->
-        <section id="sobre-mi">
-            <h2>Sobre Mí</h2>
-            <p>Información personal y profesional.</p>
-        </section>
-        <!-- Sección de experiencia laboral -->
-        <section id="experiencia">
-            <h2>Experiencia</h2>
-            <p>Detalles sobre mi experiencia laboral.</p>
-        </section>
-        <!-- Sección de trayectoria académica -->
-        <section id="educacion">
-            <h2>Educación</h2>
-            <p>Mi trayectoria académica.</p>
-        </section>
-        <!-- Sección de formulario de contacto -->
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <!-- Formulario de contacto que envía datos mediante POST -->
-            <form id="contact-form" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    <!-- Pie de página del sitio -->
-    <footer>
-        <p>&copy; 2024 Mi Nombre</p>
-    </footer>
-    <!-- Vinculación del archivo JavaScript -->
-    <script src="js/scripts.js"></script>
+<!-- Header -->
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<!-- Main Content -->
+<main>
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="intro-container">
+            <h2 class="intro-heading">Human Body Movement Developer</h2>
+            <p class="intro-text">I am a passionate and driven professional with a distinctive background in enhancing the ergonomic and natural stimulation of human body movement through a blend of interdisciplinary knowledge. My career is dedicated to promoting balanced development and optimizing conditional states of movement, aiming to improve health, beauty, and performance.</p>
+            <p class="intro-text">My commitment extends beyond professional engagements, reflecting a profound dedication to fostering well-being and functional excellence through thoughtful and scientifically informed approaches to human movement.</p>
+            <div class="intro-button">
+                <a href="#about-me" class="button-link">Lit bit more about me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Front End Tools Section -->
+    <section id="front-end-tools">
+        <h2 class="section-heading">Front End Tools</h2>
+        <div class="tools-container">
+            <div class="tools-image">
+                <img src="images/Front end.jpg" alt="Front End Tools">
+            </div>
+            <div class="tools-content">
+                <ul class="tools-list">
+                    <li><strong>Version Control and Collaboration</strong>: My front-end projects are hosted on GitHub, which facilitates version control and collaboration with other developers.</li>
+                    <li><strong>Cloud Services</strong>: I deploy front-end applications on Microsoft Azure, leveraging its robust infrastructure and seamless integration with other Microsoft technologies.</li>
+                    <li><strong>Development Environment</strong>: My primary IDE for front-end work is Visual Studio Code (VS Code), known for its flexibility, plugin support, and ease of use.</li>
+                </ul>
+                <div class="tools-button">
+                    <a href="https://github.com/your-username" class="button-link">Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 My Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="js/scripts.js"></script>
 </body>
 </html>
